@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CrystalCollector Game</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    
+    <h1>CrystalCollector!</h1>
+
+    <div>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+            score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+    <div><h2 id="computer">0</h2></div>
+
+    <div>
+        <h2 id="Wins">Wins: 0</h2>
+        <h2 id="Losses">Losses: 0</h2>
+    </div>
+
+    <button><img src="./assets/images/crystal_one.jpg" style="width: 100px" id="cOne"></button>
+    <button><img src="./assets/images/crystal_two.jpg" style="width: 100px" id="cTwo"></button>
+    <button><img src="./assets/images/crystal_three.jpg" style="width: 100px" id="cThree"></button>
+    <button><img src="./assets/images/crystal_four.jpg" style="width: 100px" id="cFour"></button>
+
+    <div><h2>Your total score is:</h2></div>
+
+    <div><h2 id="player"></h2></div>
+
+    <script src="./assets/javascript/game.js"></script>
+
+    
+</body>
+
+</html>
